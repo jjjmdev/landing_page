@@ -90,3 +90,65 @@ body {
     padding: 0.5em 2em;
     border-radius: 12px;
 }
+
+/* Info section */
+section.info {
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    color: #1f2937;
+    padding: 55px 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.card-container {
+    display: flex;
+    gap: 48px;
+    padding-left: 105px;
+    padding-right: 105px;
+    padding-bottom: 120px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.card img {
+    width: 160px;
+    height: 160px;
+    border: 3px solid #3882f6;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.card p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Quote section */
+section.quote {
+    background-color: #e5e7eb;
+    padding: 136px 340px 102px 340px;
+    color: #1f2937;
+}
+
+.quote h2 {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+    margin: 0;
+}
+
+.quote p {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
