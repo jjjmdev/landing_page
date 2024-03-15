@@ -202,3 +202,12 @@ section.quote {
     color: #e5e7eb;
     font-weight: 200;
 }
+
+/* Footer */
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 2.5em 0;
+}
